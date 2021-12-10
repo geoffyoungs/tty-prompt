@@ -495,7 +495,7 @@ module TTY
       #
       # @api private
       def only_one_choice?
-        choices.enabled.length == 1
+        choices.length == 1
       end
 
       # Clear screen lines
