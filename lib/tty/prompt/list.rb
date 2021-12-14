@@ -491,7 +491,7 @@ module TTY
         choices[@active - 1].value
       end
 
-      # Have we only one valid choice available?
+      # Have we only one choice available? (Not left among others disabled)
       #
       # @api private
       def only_one_choice?
